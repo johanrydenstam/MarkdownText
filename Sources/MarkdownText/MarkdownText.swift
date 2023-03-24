@@ -5,7 +5,7 @@ import Markdown
 ///
 /// The stack is "lazy," in that the stack view doesn't create items until
 /// it needs to render them onscreen.
-@available(iOS 14, *)
+@available(iOS 14, tvOS 14, *)
 public struct LazyMarkdownText: View, MarkupWalker {
     private let content: MarkdownContent
     public var body: some View { content }

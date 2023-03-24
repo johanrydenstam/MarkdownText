@@ -7,6 +7,7 @@ let package = Package(
     name: "MarkdownText",
     platforms: [
         .iOS(.v13),
+        .tvOS(.v14),
         .macOS(.v11),
     ],
     products: [
